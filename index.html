@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html translate="no" lang="nl">
+<head>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self';">
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="bum"></div>
+  <div class="container">
+    <div class="hidden-container">
+      <label for="end-time">End Time:</label>
+      <input type="time" id="end-time">
+      <button id="start-button">Start Countdown</button>
+    </div>
+    <button id="thirteen-hour" class="preset-button">Until 13:00</button>
+    <button id="seventeen-hour" class="preset-button">Until 17:00</button>
+    <div id="countdown"></div>
+  </div>
+  <script src="java.js"></script>
+</body>
+</html>
